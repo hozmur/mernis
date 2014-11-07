@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "mernis"
-  s.version     = "0.1.4"
+  s.version     = "0.1.5"
   s.platform    = Gem::Platform::RUBY
   s.date        = Time.now.strftime("%Y-%m-%d")
   s.summary     = "SOAP client for KPS services."
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 end
 
 # gem build mernis.gemspec
-# sudo gem install ./mernis-0.1.4.gem 
-# gem push mernis-0.1.3.gem 
-# git tag -a v0.1.4 -m "foo"
+# sudo gem install ./mernis-0.1.5.gem 
+# gem push mernis-0.1.5.gem 
+# git tag -a v0.1.5 -m "foo"
 # git push --tags
