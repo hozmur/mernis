@@ -6,7 +6,7 @@ $ gem install 'mernis'
 
 ## Usage Examples
 
-```
+```ruby
 require 'mernis'
 
 # Most basic usage:
@@ -25,7 +25,7 @@ mernis = Mernis.sorgula(id_number="12345", first_name="John", last_name="Doe", b
 
 ## Parameters
 
-```
+```ruby
 mernis = Mernis.sorgula(
       id_number="12345", # identity number
       first_name="John", # first name
