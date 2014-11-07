@@ -11,12 +11,10 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/msdundar/mernis"
   s.licenses    = ["MIT"]
   s.add_dependency "savon", "~> 2.7.2"
-  s.add_dependency "unicode_utils"
-  s.add_development_dependency "rspec", "~> 2.14"
 end
 
 # gem build mernis.gemspec
 # sudo gem install ./mernis-0.1.4.gem 
 # gem push mernis-0.1.3.gem 
-# git tag -a v0.1.3 -m "Erros handled"
+# git tag -a v0.1.4 -m "foo"
 # git push --tags
