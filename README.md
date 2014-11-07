@@ -3,7 +3,7 @@
 SOAP client for KPS (The Identity Information Sharing System) services provided by Ministry of the Interior, Turkey
 
 [![Gem Version](https://badge.fury.io/rb/mernis.svg)](http://badge.fury.io/rb/mernis)
-[![Coverage Status](https://coveralls.io/repos/msdundar/mernis/badge.png)](https://coveralls.io/r/msdundar/mernis)
+[![Code Climate](https://codeclimate.com/github/msdundar/mernis/badges/gpa.svg)](https://codeclimate.com/github/msdundar/mernis)
 
 ## Setup
 
