@@ -26,7 +26,7 @@ mernis = Mernis.sorgula(id_number="12345", first_name="John", last_name="Doe", b
 mernis = Mernis.sorgula(id_number="12345", first_name="John", last_name="Doe", birth_year="1990", version = 2, log = false)
 
 # With all parameters:
-mernis = Mernis.sorgula(id_number="12345", first_name="John", last_name="Doe", birth_year="1990", version = 2, open_timeout = 60, read_timeout = 60, log = false, wsdl: 'https://somecustomwsdl.com' )
+mernis = Mernis.sorgula(id_number="12345", first_name="John", last_name="Doe", birth_year="1990", version = 2, open_timeout = 60, read_timeout = 60, log = false, wsdl = "https://somecustomwsdl.com" )
 
 ```
 
@@ -42,7 +42,7 @@ mernis = Mernis.sorgula(
       open_timeout = 60, # timeout duration until SOAP server opens the connection. in seconds.
       read_timeout = 60, # timeout duration until SOAP server returns response. in seconds.
       log = false,       # logging
-      wsdl: 'https://somecustomwsdl.com' # wsdl uri
+      wsdl = "https://somecustomwsdl.com" # wsdl uri
     )
 ```
 
