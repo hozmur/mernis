@@ -54,6 +54,3 @@ class Request
     end
   end
 end
-
-
-## argüman sayısında hata varsa veya veri tipinde hata varsa onuda yakala!
