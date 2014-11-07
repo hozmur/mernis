@@ -7,7 +7,6 @@ SOAP client for KPS (The Identity Information Sharing System) services provided 
 
 ## Setup
 
-
 ```
 $ gem install 'mernis'
 ```
@@ -46,6 +45,10 @@ mernis = Mernis.sorgula(
       wsdl: 'https://somecustomwsdl.com' # wsdl uri
     )
 ```
+
+## Response
+
+Returns true if the identity number can be validated and false if not. Both returning values are string!
 
 ## Questions
 
