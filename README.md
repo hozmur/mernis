@@ -50,6 +50,15 @@ mernis = Mernis.sorgula(
 
 Returns true if the identity number can be validated and false if not. Both returning values are string!
 
+## Contributing
+
+1. `fork` the repo ( https://github.com/msdundar/mernis/fork )
+2. Create a branch (git checkout -b cool-feature)
+3. Commit the changes (git commit -am 'My cool features')
+4. Push the branch (git push origin cool-feature)
+5. Make a pull request
+
+
 ## Questions
 
 ```
