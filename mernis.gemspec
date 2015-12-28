@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/mernis.rb", "lib/mernis/request.rb"]
   s.homepage    = "https://github.com/msdundar/mernis"
   s.licenses    = ["MIT"]
-  s.add_dependency "savon", "~> 2.7.2"
+  s.add_dependency "savon", "> 2.7.2"
 end
 
 # gem build mernis.gemspec
